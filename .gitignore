@@ -1,0 +1,4 @@
+/data/stripes-v1/
+__pycache__/
+*.py[cod]
+.venv/

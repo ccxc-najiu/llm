@@ -1,0 +1,22 @@
+{
+  "version": "stripes-v1",
+  "size": 32,
+  "widths": [2, 4, 8],
+  "noise_amplitudes": [0.0, 0.03, 0.08],
+  "brightness_range": [0.1, 0.3],
+  "contrast_range": [0.3, 0.5],
+  "heldout": [8, 0.08],
+  "splits": {
+    "train": {"seed": 4101, "per_cell_class": 375, "heldout_only": false},
+    "validation": {"seed": 4102, "per_cell_class": 75, "heldout_only": false},
+    "test_id": {"seed": 4103, "per_cell_class": 75, "heldout_only": false},
+    "test_ood": {"seed": 4104, "per_cell_class": 600, "heldout_only": true}
+  },
+  "diagnostics": {
+    "brightness": [0.1, 0.3],
+    "contrast": [0.3, 0.5],
+    "brightness_offset": 0.05,
+    "scale": 0.5,
+    "constants": [0.0, 0.5, 1.0]
+  }
+}
